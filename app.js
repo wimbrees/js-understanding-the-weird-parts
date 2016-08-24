@@ -1,6 +1,6 @@
 var g = G$();
 
-g.greet().log().setLang('sp').greet(true).log().HTMLGreeting($('#greeting'), true);
+// g.greet().log().setLang('sp').greet(true).log().HTMLGreeting($('#greeting'), true);
 
 var formal = $('#formal').val() === "true";
 var language = $('#lang').val();
